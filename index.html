@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Gradebook app</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+</head>
+
+<body>
+  <header>
+      <h2>Students Gradebook</h2>
+  </header>
+  <form>
+    
+    <section>
+      <label for="studentScore">Student Scores (comma separated):</label>
+      <input type="text" name="" id="studentScore" placeholder="e.g. 80, 75, 60, 90, 98, 69" required>
+    </section>
+    <input type="submit" value="Calculate Score">
+  </form>
+  
+  <h3>Results</h3>
+  <ul>
+    <li>Average Score: <span id="average"></span></li>
+    <li>Grade: <span id="grade"></span></li>
+    <li>Status: <span id="status"></span></li>
+  </ul>
+  
+  <!-- Project -->
+  <script src="main.js"></script>
+</body>
+</html>
